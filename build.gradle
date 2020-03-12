@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.cracker'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
+}
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.16.8';
+    compile 'mysql:mysql-connector-java:5.1.34';
+    compile 'cglib:cglib:3.2.8'
+}
+
+
